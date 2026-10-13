@@ -1,37 +1,63 @@
-body{
+
+body {
     text-align: center;
-}
-.header{
-    background-color: black;
-}
-.title{
-    color: beige;
     font-family: Arial, Helvetica, sans-serif;
-}
-.wordst{
-    color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.head{
-    font-size: larger;
-}
-.words{
-    padding: 1cm;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px
+    background-color: #f9f9f9;
+    color: #333;
 }
 
-.ntitle{
-    font-size: larger;
-    justify-content: center;
+.header {
+    background-color: #222; 
 }
-.projects{
+
+.title {
+    color: beige;
+}
+
+.wordst {
+    color: aliceblue;
+}
+
+
+.ntitle {
+    font-size: 28px;
+}
+
+.words {
+    font-size: 18px; 
+    color: #555;
+}
+
+.projects {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 20px; 
 }
-.boxes{
-    border: 0.5px solid;
-    border-color: black;;
 
+.boxes {
+    background-color: white;
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.nntitle {
+    font-size: 20px;
+}
+
+
+
+
+button {
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
 }
