@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+}
+.header{
+    background-color: black;
+}
+.title{
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wordst{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    font-size: larger;
+}
+.words{
+    padding: 1cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px
+}
+
+.ntitle{
+    font-size: larger;
+    justify-content: center;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.boxes{
+    border: 0.5px solid;
+    border-color: black;;
+
+}
